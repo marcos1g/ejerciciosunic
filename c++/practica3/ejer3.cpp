@@ -5,8 +5,8 @@ int main()
 {
 int num;
 streampos pos;
- ifstream archilec;
- ofstream archilec2, archilec3; //input file stream: para lectura
+ ifstream archilec; //input file stream: para lectura
+ ofstream archilec2, archilec3; 
  archilec.open("Archivo.txt");
  archilec2.open("Archivo2.txt");
  archilec3.open("Archivo3.txt");
